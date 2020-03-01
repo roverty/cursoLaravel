@@ -13,47 +13,167 @@ Laravel es uno de los frameworks para backend más famosos de los últimos años
 
 En ésta primera entrega se pretende que se conozca lo básico del funcionamiento de dicho framework en su versión más actual a la fecha (Laravel 6, 2019).  A pesar de su importancia, en la primera fase de este curso no se tocan temas como *peticiones asincronas* o creación de SPA (Single page applications) con Vue.js, React.js o Angular.js.
 
-Para conocer más acerca de los temas que abordará el curso ver [TEMARIO](TEMARIO.md)
-
 ## Conocimientos requeridos
 
 * Manejo de paradigma orientado a objetos
 * Conocimientos básicos de html, css y js
+* Conocimientos de base de datos
+* Conocimientos de git
 * Conocimientos básicos de php
-* Conocimientos mínimos de base de datos
 
 ## Temario
 
-<!-- Escribir el temario con links al md que trata el tema -->
+0. **Repaso de php**
 
-## Handy commands
+   * Características de php
+   * Sintaxis básica
+   * Variables y tipos de variables
+   * Operadores
+   * Estructuras de control
+   * Arreglos
+   * Funciones
+   * Paradigma orientado a objetos
+     * Clases y obtjos
+     * Métodos y atributos
+     * Constructores
+     * Herencia
 
-* En caso de que los cambios hechos en los archivos blade no se vean reflejados se deben limpiar los cache de laravel para lo cual se pueden utilizar los siguientes comandos.
+1. **Conceptos fundamentales**
 
-  ```shell
-  php artisan cache:clear # Limpiamos el cache de la aplicación
-  php artisan route:clear # Limpiamos el cache de las rutas
-  php artisan config:clear # Limpiamos el cache de las configuraciones
-  php artisan view:clear # Limpiamos el cache de las vistas compiladas
-  
-  # En caso de estar en un shared-host se puede hacer lo siguiente si no se cuenta con ssh	
-  Route::get('/clear-cache', function() {
-      Artisan::call('cache:clear');
-      return "Cache is cleared";
-  });
-  ```
+   * ¿Qué es laravel?
 
-* Para iniciar el servidor en otro puerto y la IP del nuestra computadora para que pueda ser visto en otras computadoras
+   * Diferencia entre biblioteca, API y framework
 
-  ```shell
-  sudo php artisan serve --host 192.168.1.108 --port 8
-  ```
+   * Frameworks similares a laravel
 
-## Resumen del curso
+   * Ventajas y desventajas de laravel
 
-Este es un resumen del curso con los comandos y snippets más utilizados sin toda la teoría de por medio.
+   * Artiquectura cliente servidor (C/S)
 
-<!-- poner resumen --->
+   * Protocolo Http
+
+     * Métodos de petición
+       * Get
+       * Post
+     * Códigos de Respuesta
+     * Certificado SSL
+
+   * Servidores web
+
+     * Xampp
+     * NGINX
+
+   * Arquitecturas de diseño de sofware
+
+     * MVC
+     * MVP
+
+   * Patrones de diseño
+
+     * Singleton
+
+     * Provider
+
+       <!-- Incluir más patrones de diseño que se usan en laravel -->
+
+   * API REST vs API SOAP
+
+   * NodeJS
+
+   * Angular, VueJS y ReactJS
+
+2. **Configuración del entorno de trabajo**
+
+   * Dependencias requeridas
+   * Entornos de desarrollo 
+     * Laragon
+   * Ecosistemas para laravel
+     * Vapor
+     * Valet
+     * Passport
+     * Sout
+   * Instalación
+     * Instalación el MacOS
+     * Instalación en Windows
+     * Instalación en GNU/Linux
+       * Instalación en ArchLinux
+       * Instalación en Ubuntu
+       * Instalación en Debian
+
+3. **Estructura del un proyecto en laravel**
+
+   * Creación y configuración de un proyecto en laravel
+     * Creación  y configuración de un proyecto nuevo 
+
+     * Creación y configuración de un proyecto existente 
+
+       en github, gitlab, bitbucket o similares.
+
+   * Artisan
+
+   * Comandos importantes de laravel
+
+   * REPL tinker
+
+   * Directorios importantes de un proyecto en laravel
+
+   * Archivos importantes de un proyecto en laravel
+
+4. **Repaso de Base de datos**
+
+   * Modelo Relacional
+   * SQL
+
+5. **ORM Eloquent** 
+
+   * ORM
+   * ORM Eloquent
+   * Configuración de la BD
+   * Modelos
+   * Migracciones y DDL
+   * Relaciones
+   * DML y DQL
+     * DQL con Eloquent
+     * DQL con Query Builder
+
+6. **Rutas**
+
+   * Listar rutas
+   * Tipos de rutas
+
+   * Métodos de la clase route
+   * Rutas con parámetros
+     * Parámetros opcionales
+     * Parámetros restringidos por REGEX
+   * Rutas con nombre
+   * Grupos de rutas y prefijos
+   * Rutas con middleware
+
+7. **Controladores**
+
+   * Creación de controladores
+   * Tipos de controladores
+     * Controladores de recursos
+
+8. **Rutas, contoladores y middleware**
+
+   * Rutas y retorno de vistas
+   * Rutas para controladores de recursos
+   * Middleware
+   * Middleware frecuentes en laravel
+
+9. **Vistas**
+
+10. **Manejo de formularios**
+
+11. **Sistema de autentificación**
+
+12. Creación de API REST en laravel
+
+13. Integración de bibliotecas externas
+
+    * Carrito de compras
+    * Consumidor de API
 
 ## Contributing 
 
