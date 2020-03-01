@@ -129,13 +129,9 @@ En ésta primera entrega se pretende que se conozca lo básico del funcionamient
    * Middleware frecuentes en laravel
 
 9. **Vistas**
-10. 
 10. **Manejo de formularios**
-11. 
 11. **Sistema de autentificación**
-12. 
 12. Creación de API REST en laravel
-
 13. Integración de bibliotecas externas
     * Carrito de compras
     * Consumidor de API
