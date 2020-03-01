@@ -24,7 +24,6 @@ En ésta primera entrega se pretende que se conozca lo básico del funcionamient
 ## Temario
 
 0. **Repaso de php**
-
    * Características de php
    * Sintaxis básica
    * Variables y tipos de variables
@@ -39,51 +38,32 @@ En ésta primera entrega se pretende que se conozca lo básico del funcionamient
      * Herencia
 
 1. **Conceptos fundamentales**
-
    * ¿Qué es laravel?
-
    * Diferencia entre biblioteca, API y framework
-
    * Frameworks similares a laravel
-
    * Ventajas y desventajas de laravel
-
    * Artiquectura cliente servidor (C/S)
-
    * Protocolo Http
-
      * Métodos de petición
        * Get
        * Post
      * Códigos de Respuesta
      * Certificado SSL
-
    * Servidores web
-
      * Xampp
      * NGINX
-
    * Arquitecturas de diseño de sofware
-
      * MVC
      * MVP
-
    * Patrones de diseño
-
      * Singleton
-
      * Provider
-
        <!-- Incluir más patrones de diseño que se usan en laravel -->
-
    * API REST vs API SOAP
-
    * NodeJS
-
    * Angular, VueJS y ReactJS
 
 2. **Configuración del entorno de trabajo**
-
    * Dependencias requeridas
    * Entornos de desarrollo 
      * Laragon
@@ -101,31 +81,21 @@ En ésta primera entrega se pretende que se conozca lo básico del funcionamient
        * Instalación en Debian
 
 3. **Estructura del un proyecto en laravel**
-
    * Creación y configuración de un proyecto en laravel
      * Creación  y configuración de un proyecto nuevo 
-
      * Creación y configuración de un proyecto existente 
-
        en github, gitlab, bitbucket o similares.
-
    * Artisan
-
    * Comandos importantes de laravel
-
    * REPL tinker
-
    * Directorios importantes de un proyecto en laravel
-
    * Archivos importantes de un proyecto en laravel
 
 4. **Repaso de Base de datos**
-
    * Modelo Relacional
    * SQL
 
 5. **ORM Eloquent** 
-
    * ORM
    * ORM Eloquent
    * Configuración de la BD
@@ -137,10 +107,8 @@ En ésta primera entrega se pretende que se conozca lo básico del funcionamient
      * DQL con Query Builder
 
 6. **Rutas**
-
    * Listar rutas
    * Tipos de rutas
-
    * Métodos de la clase route
    * Rutas con parámetros
      * Parámetros opcionales
@@ -150,28 +118,25 @@ En ésta primera entrega se pretende que se conozca lo básico del funcionamient
    * Rutas con middleware
 
 7. **Controladores**
-
    * Creación de controladores
    * Tipos de controladores
      * Controladores de recursos
 
 8. **Rutas, contoladores y middleware**
-
    * Rutas y retorno de vistas
    * Rutas para controladores de recursos
    * Middleware
    * Middleware frecuentes en laravel
 
 9. **Vistas**
-
+10. 
 10. **Manejo de formularios**
-
+11. 
 11. **Sistema de autentificación**
-
+12. 
 12. Creación de API REST en laravel
 
 13. Integración de bibliotecas externas
-
     * Carrito de compras
     * Consumidor de API
 
