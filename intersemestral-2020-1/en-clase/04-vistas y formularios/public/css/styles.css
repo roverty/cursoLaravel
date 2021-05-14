@@ -1,0 +1,39 @@
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: monospace;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+      
+
+nav, footer{
+  background: linear-gradient(90deg, rgba(255,0,255,1) 0%, rgba(0,255,255,1) 100%);
+}
+nav{
+  font-size: 1.3rem;
+}
+
+.navbar-brand img:hover{
+  transform: scale(1.5);
+}
+nav .collapse ul li a:hover{
+  /*font-size: 1.05em;*/
+  text-decoration: underline;
+}
+footer{
+  height: 10vh;
+  margin-top: 5vh;
+}
+
+.container-fluid{
+  margin-top: 5vh;
+}
+
+h1{
+  font-family: fantasy;
+}
