@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Inicio</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/mediaqueries.css">
+	<link href="https://fonts.googleapis.com/css?family=Oxygen|Rufina&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-dark">
+		    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		        <span class="navbar-toggler-icon"></span>
+		    </button>
+
+		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		        <ul class="navbar-nav ml-auto">
+		            
+		            <li class="nav-item active">
+		                <a class="nav-link" href="{{ route('usuarios.index') }}">Usuarios<span class="sr-only">(current)</span></a>
+		            </li>
+		            <li class="nav-item">
+		                <a class="nav-link" href="">Tareas</a>
+		            </li>
+		            <li class="nav-item">
+		                <a class="nav-link" href="#">Material</a>
+		            </li>
+		             <li class="nav-item">
+		                <a class="nav-link" href="{{url('/')}}">Vista normal</a>
+		            </li>
+		        </ul>
+		    </div>
+		</nav>
+	</header>
+	<main class="main_index">
+	<div class="container">
+		<br>
+		<h1 class="text-left">Usuarios	<a href="usuarios/create">
+			 <button type="button" class="btn btn-success float-right">Agregar Usuario</button>
+		</a></h1>
+
+		<br>
+		<table class="table table-hover ">
+		  <thead>
+		    <tr>
+		      <tr>
+		        <th scope="col">ID</th>
+		        <!-- <th scope="col">Foto</th> -->
+		        <th scope="col">Nombre</th>
+		        <th scope="col">Email</th>
+		        <th scope="col">Admin</th>
+		        <th>Opciones</th>
+		      </tr>
+		    </tr>
+		  </thead>
+		  <tbody>
+		  	<tr>
+		  	  <td scope="row">46</td>
+		  	  <!-- <td class="col-foto"><img src="img/users/IMG_20191217_131443.jpg" alt="..." class="rounded-sm img-user img-fluid"></td> -->
+		  	  <th>Anallely</th>
+		  	  <td>anallely.0710@gmail.com</td>
+		  	  <td>1</td>		
+		  	  <td>
+		  	  	<a href="{{ route('usuarios.edit', $user->id) }}"><button type="button" class="btn btn-primary">Editar</button></a>
+		  	  	<a href=""><button type="button" class="btn btn-danger d-in">Eliminar</button></a>
+		  	  	<a href=""><button type="button" class="btn btn-secondary">Ver</button></a>
+		  	  </td>       
+		  	</tr>
+		  </tbody>
+		</table>
+	</div>
+	</main>
+
+	</body>
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	</html>

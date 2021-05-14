@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Inicio</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/mediaqueries.css">
+	<link href="https://fonts.googleapis.com/css?family=Oxygen|Rufina&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-dark">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+
+					<li class="nav-item active">
+						<a class="nav-link" href="{{ route('usuarios.index') }}">Usuarios<span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="">Tareas</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Material</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="{{url('/')}}">Vista normal</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<main class="main_reg container">
+		<div class="jumbotron jumbotron-fluid titulo">
+			<div class="container">
+				<h1>Hola!</h1>
+				<h2>Haz tu cuenta</h2>
+			</div>
+		</div>
+		<!-- form -->
+		<div class="card text-black mb-3 tarea bg-warning mx-auto container" >
+			<form class="text-white">
+				<div class="row">
+					<div class="col">
+						<div class="form-group">
+							<label for="exampleInputEmail1">Nombre</label>
+							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+						</div>
+					</div>
+					<div class="col">
+						<div class="form-group">
+							<label for="exampleInputEmail1">Apellido(s)</label>
+							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<div class="form-group">
+							<label for="exampleInputEmail1">Username</label>
+							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+						</div>
+					</div>
+					<div class="col">
+						<div class="form-group">
+							<label for="exampleInputEmail1">Email</label>
+							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+						</div>
+					</div>
+				</div>
+				<div class="form-group ml-3">
+				     <input class="form-check-input " type="checkbox" name="admin"  >
+				     	
+				    <label class="form-check-label" for="remember"><small>Admin</small></label>
+				</div>
+				
+				<br>
+				<button type="submit" class="btn">Registrar</button>
+			</form>
+		</div>
+
+		
+		
+	</main>
+	
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</html>

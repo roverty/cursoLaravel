@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Inicio</title>
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/mediaqueries.css">
+		<link href="https://fonts.googleapis.com/css?family=Oxygen|Rufina&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+	<!-- nav-->
+	<nav class="navbar navbar-expand-lg navbar-dark">
+	  <a class="navbar-brand" href="#"><img src="img/icons/codeblanco.png" alt=""></a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav ml-auto">
+	      <li class="nav-item">
+	        <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Tareas</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Material</a>
+	      </li>
+	      <li class="nav-item active">
+	        <a class="nav-link" href="iniciar_sesion.html">Iniciar Sesión</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="registro.html">Registro</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Contacto</a>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
+</header>
+<main class="main_sesion container">
+	<div class="card titulo bienvenidos">
+		<div class="container haztucuenta">
+			<h2 class="d-none d-md-block">Hola!</h2>
+			<h3 >Inicia sesión</h3>
+		</div>
+	</div>		
+	<!-- form -->
+	<div class="card text-black mb-3 tarea bg-danger mx-auto form" >
+		  <form class="text-white">
+		    <div class="form-group">
+		      <label for="exampleInputEmail1">Usuario</label>
+		      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+		    </div>
+		    <div class="form-group">
+		      <label for="exampleInputPassword1">Contraseña</label>
+		      <input type="password" class="form-control" id="exampleInputPassword1">
+		    </div>
+		    <div class="form-group">
+				<input  type="checkbox" name="remember" id="remember" class="ml-3">
+				<label class="form-check-label" for="remember"><small>Recordar mis datos</small></label>
+			</div>
+		    <button type="submit" class="btn">Enviar</button>
+		    <br>
+		    <a href=""><small class="text-white">¿Olvidaste tu contraseña?</small></a>
+		  </form>
+	</div>
+	
+		
+		
+</main>
+<footer>
+	
+</footer>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</html>

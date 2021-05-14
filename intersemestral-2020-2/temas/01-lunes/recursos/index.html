@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Inicio</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/mediaqueries.css">
+	<link href="https://fonts.googleapis.com/css?family=Oxygen|Rufina&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<!-- nav-->
+		<nav class="navbar navbar-expand-lg navbar-dark">
+			<a class="navbar-brand" href="#"><img src="img/icons/codeblanco.png" alt=""></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="iniciar_sesion.html">Iniciar Sesión</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="registro.html">Registro</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Tareas</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Material</a>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contacto</a>
+					</li>
+					<li class="nav-item dropleft">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Dropdown
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">Admin</a>
+							<a class="dropdown-item" href="#">Mi Perfil</a>
+							<a class="dropdown-item" href="#">Cerrar sesión</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<main class="main_index">
+		<div class="card titulo bienvenidos">
+			<div class="container">
+				<h1 class="d-none d-sm-block">Bienvenidos</h1>
+				<h2>Curso Desarrollo Web</h2>
+				<h3 class="d-none d-sm-block">Gen 40</h3>
+			</div>
+		</div>		
+		<div class="container tareas">
+			<h4 class="p-2 d-none d-sm-block">Tareas pendientes:</h4>
+
+			<div class="card text-black mb-3 tarea amarillo" >
+				<div class="card-header">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-12 col-sm-4 text-left">
+								<h3 class="card-title">Título de la tarea</h3>
+							</div>
+							<div class="col-12 col-sm-4 text-left">
+								<h6>Fecha de Entrega: <b>02/03/20</b> a las: <b>00:00</b></h6>
+							</div>
+							<div class="col-12 col-sm-4 text-left text-md-right">
+								<!-- Button trigger modal -->
+								<button type="button" class="btn bg-light" data-toggle="modal" data-target="#exampleModalCenter">
+								  Enviar
+								</button>
+
+								<!-- Modal -->
+								<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								  <div class="modal-dialog modal-dialog-centered" role="document">
+								    <div class="modal-content">
+								      <div class="modal-header">
+								        <h5 class="modal-title" id="exampleModalCenterTitle">Adjunta tu archivo</h5>
+								        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								          <span aria-hidden="true">&times;</span>
+								        </button>
+								      </div>
+								      <form action="">
+								      <div class="modal-body text-center">
+								        <input accept="image/*" type="file" name="imagen">
+								      </div>
+								      <div class="modal-footer">
+								        <button type="button" class="btn btn-secondary bg-danger" data-dismiss="modal">Close</button>
+								        <button type="submit" class="btn btn-primary bg-primary">Guardar</button>
+								      </div>
+								      </form>
+								    </div>
+								  </div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="card-body">
+					<p>Tipo de archivo permitido: <span><b>.zip</b></span></p>
+					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, quibusdam? Molestias consequatur, unde quia pariatur fuga totam tenetur voluptates modi. Obcaecati ipsum eveniet, quos aperiam perspiciatis sit nulla ducimus necessitatibus. Veritatis beatae, facere ducimus vero fuga recusandae voluptate. Recusandae aperiam itaque dolores vero, earum. Quia vitae aut architecto, quam deserunt similique, quae sunt non eligendi eveniet, esse recusandae deleniti dicta amet ex officia labore. Laboriosam nisi enim autem ullam, accusamus explicabo aut qui amet, minima ipsam culpa, ipsum quibusdam laudantium saepe, aspernatur. Amet ex itaque, laboriosam odio dolorum aliquid voluptatum et illum sequi consectetur ullam quos nesciunt iusto, veniam quidem!</p>
+					<a target="_blank" href="" class="text-body"><em>Archivo opcional</em></a>
+				</div>
+			</div>
+		</div>
+	</main> 
+	<footer>
+		<div class="container text-white text-center pt-2">
+			<div class="row">
+				<div class="col-12 col-sm-6">
+					<p>Cel. 5618394983</p>
+				</div>
+				<div class="col-12 col-sm-6">
+					<a href="mailto: anallely.proteco@gmail.com" class="text-white">
+						<p class="text-white">anallely.proteco@gmail.com</p>
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</html>

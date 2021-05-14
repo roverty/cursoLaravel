@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Inicio</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/mediaqueries.css">
+	<link href="https://fonts.googleapis.com/css?family=Oxygen|Rufina&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<!-- nav-->
+		<nav class="navbar navbar-expand-lg navbar-dark">
+			<a class="navbar-brand" href="#"><img src="img/icons/codeblanco.png" alt=""></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Tareas</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Material</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="iniciar_sesion.html">Iniciar Sesión</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="registro.html">Registro</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contacto</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<main class="main_sesion container">
+		<div class="card titulo bienvenidos pb-2 pb-md-4">
+			<div class="container haztucuenta pb-3">
+				<h3>Mandame un correo :)</h3>
+			</div>
+		</div>		
+		<!-- form -->
+		<div class="card text-black mb-3 tarea amarillo mx-auto form" >
+			<form class="text-body">
+				<div class="form-group">
+					<label for="exampleInputEmail1">Nombre</label>
+					<input type="text" class="form-control" id="nombre" name="nombre" aria-describedby="emailHelp">
+				</div>
+				<div class="form-group">
+					<label for="exampleInputPassword1">Mensaje</label><br>
+					<textarea name="message" id="" class="w-100" rows="5"></textarea>
+				</div>
+				<button type="submit" class="btn">Enviar</button>
+				<br>
+			</form>
+		</div>
+
+		
+		
+	</main>
+	<footer>
+
+	</footer>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</html>
